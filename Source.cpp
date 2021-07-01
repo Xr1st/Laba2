@@ -4,7 +4,7 @@ using namespace std;
 
 void one() {
 	int a, b, c;
-	cout << "Ââîä  a b c : ";
+	cout << "Ð’Ð²Ð¾Ð´  a b c : ";
 	cin >> a >> b >> c;
 	int d = b * b - 4 * a * c;    
 	if (d > 0) {
@@ -17,24 +17,24 @@ void one() {
 		int x1 = (-b + sqrt(d)) / (2 * a);
 		cout << "x = " << x1 << endl;
 	}
-	else if (d < 0) { cout << "Êîðíåé íåò"; }
+	else if (d < 0) { cout << "ÐšÐ¾Ñ€Ð½ÐµÐ¹ Ð½ÐµÑ‚"; }
 }
 
 void two() {
 	int a, b;
-	cout << "Ââåäèòå ãðàíèöû: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñ‹: ";
 	cin >> a >> b;
-	cout << "Ðåçóëüòàò: " << a + rand() % b << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << a + rand() % b << endl;
 }
 
 void three() {
 	int array[10];
-	cout << "Çàïîëíèòå ìàññèâ: ";
+	cout << "Ð—Ð°Ð¿Ð¾Ð»Ð½Ð¸Ñ‚Ðµ Ð¼Ð°ÑÑÐ¸Ð²: ";
 	for (int i = 0; i < 10; i++) {
 		cin >> array[i];
 	}
 
-	cout << "Ìàññèâ: " << endl;
+	cout << "ÐœÐ°ÑÑÐ¸Ð²: " << endl;
 	for (int i = 0; i < 10; i++)
 		cout << array[i] << " ";
 	cout << endl;
@@ -48,7 +48,7 @@ void three() {
 	}
 
 
-	cout << "Ðåçóëüòàò: " << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << endl;
 	for (int i = 0; i < 10; i++)
 		cout << array[i] << " ";
 	cout << endl;
